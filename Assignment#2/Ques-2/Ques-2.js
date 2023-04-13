@@ -1,3 +1,4 @@
+let value = +propmt("Enter a Specific Number")
 let arr = [3, 2, 9, 5, 8, 1, 4, 6];
 
 function specificFunction(arr, value) {
@@ -11,4 +12,4 @@ function specificFunction(arr, value) {
   }
 }
 
-console.log("Specific Number is found : " + specificFunction(arr, 5))
+console.log("Specific Number is found : " + specificFunction(arr, value))
