@@ -4,3 +4,4 @@ function saveToLocalStorage(key, obj) {
   
   var myObject = { name: "Jamshaid", age: 30 };
   saveToLocalStorage("myKey", myObject);
+  
